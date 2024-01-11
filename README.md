@@ -20,6 +20,8 @@ https://github.com/VideoGameTeam3/Dungeons-and-Bats/wiki
 
 ## תמונות
 
+![gamebat](https://github.com/VideoGameTeam3/Dungeons-and-Bats/assets/118683420/2bc33668-5ee6-4dc0-a57a-8f6d8094806b)
+
 ![_ae1c4db5-0cc1-411b-9dbd-7840ab4c269c](https://github.com/VideoGameTeam3/Dungeons-and-Bats/assets/118683420/d17be9d6-c178-4df8-9fd8-05fcf59c9028)
 
 
