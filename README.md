@@ -1,3 +1,4 @@
 # Dungeons-and-Bats
 
-קישוק לwiki: https://github.com/VideoGameTeam3/Dungeons-and-Bats/wiki
+קישור לwiki:
+wiki: https://github.com/VideoGameTeam3/Dungeons-and-Bats/wiki
