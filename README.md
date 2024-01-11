@@ -7,6 +7,5 @@
 המשחק מיועד למחשב רגיל ולטלפון נייד כאחד, עשו הכל בשביל לנצח!
 
 
-## קישור לwiki: 
-
+### קישור לwiki: 
 https://github.com/VideoGameTeam3/Dungeons-and-Bats/wiki
