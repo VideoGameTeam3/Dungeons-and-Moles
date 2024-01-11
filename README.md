@@ -21,7 +21,8 @@ https://github.com/VideoGameTeam3/Dungeons-and-Bats/wiki
 ## תמונות
 
 
-![_87ad6408-6616-4ffb-9d40-478a7a44598e](https://github.com/VideoGameTeam3/Dungeons-and-Bats/assets/118683420/9b9419bc-d071-451d-a6c7-58e5ce06f588|200*250)
+＜img src="Paste Your Link Here" width="500" height="300"＞
+![_87ad6408-6616-4ffb-9d40-478a7a44598e](https://github.com/VideoGameTeam3/Dungeons-and-Bats/assets/118683420/9b9419bc-d071-451d-a6c7-58e5ce06f588)
 ![_ae1c4db5-0cc1-411b-9dbd-7840ab4c269c](https://github.com/VideoGameTeam3/Dungeons-and-Bats/assets/118683420/d17be9d6-c178-4df8-9fd8-05fcf59c9028)
 
 
