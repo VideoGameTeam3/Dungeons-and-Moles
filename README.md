@@ -7,7 +7,7 @@
 המשחק מיועד למחשב רגיל ולטלפון נייד כאחד, עשו הכל בשביל לנצח!!!
 
 ## קישור למשחק(מטלה 6)
-
+[ClickHere](https://videogameteam3.itch.io/dungeons-and-rats)
 
 ## קישור לסיפור רקע(מטלה 5)
 [ClickHere](https://videogameteam3.itch.io/background-story)
