@@ -6,6 +6,9 @@
 העכבר יצא למסע בעולם דו-מימדי מול קירות ומכשולים, כשאור החדר מכובה. העכבר צריכה להימנע מהתנגשות בקירות, ולעבור את המסלולים השונים על מנת לעבור בהצלחה את כלל השלבים – זאת על ידי זיכרון מפותח וחושים חדים.
 המשחק מיועד למחשב רגיל ולטלפון נייד כאחד, עשו הכל בשביל לנצח!!!
 
+## קישור לwiki(מטלה 7)
+[ClickHere](https://github.com/VideoGameTeam3/Dungeons-and-Moles/wiki/dynamic-components)
+
 ## קישור למשחק(מטלה 6)
 [ClickHere](https://videogameteam3.itch.io/dungeons-and-rats)
 
@@ -28,4 +31,4 @@
 
 ## תמונות
 
-![_2aa409fa-930d-4b41-adaa-19717de4a13b](https://github.com/VideoGameTeam3/Dungeons-and-Rats/assets/118683420/494ce364-ed4a-4343-aa9f-ab3291dcbb29)
+![_10b59709-a9cb-4a8a-bdbf-77d6b472b2f9](https://github.com/VideoGameTeam3/Dungeons-and-Moles/assets/118683420/7c7f9d80-21cd-4be4-a796-8cfb23780ca2)
