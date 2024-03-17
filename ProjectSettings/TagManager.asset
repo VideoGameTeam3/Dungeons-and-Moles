@@ -7,6 +7,7 @@ TagManager:
   - Mole
   - Wall
   - FlashLight
+  - Potions
   layers:
   - Default
   - TransparentFX

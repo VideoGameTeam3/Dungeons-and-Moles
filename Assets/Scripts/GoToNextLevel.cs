@@ -1,15 +1,27 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GotoNextLevel : MonoBehaviour {
     [SerializeField] string sceneName;
-
+    [SerializeField] Animator transitionanimator;
+    public AudioSource audiosource;
+    private InputMover otherinputMover;
     private void OnTriggerEnter2D(Collider2D other) {
         
         if (other.tag == "Mole") {
-            UnLockedNewLevel();
-            SceneManager.LoadScene(sceneName);    // Input can either be a serial number or a name; here we use name.
+            StartCoroutine(LoadLevel(other.GetComponent<InputMover>()));
         }
+    }
+
+    IEnumerator LoadLevel(InputMover inputmover){
+        inputmover.enabled = false;
+        transitionanimator.SetTrigger("End");
+        audiosource.Play();
+        yield return new WaitForSeconds(1);
+        UnLockedNewLevel();
+        SceneManager.LoadScene(sceneName);  
+        transitionanimator.SetTrigger("Start");
     }
 
     void UnLockedNewLevel(){

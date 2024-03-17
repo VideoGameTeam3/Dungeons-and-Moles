@@ -2,13 +2,16 @@ using UnityEngine;
 
 public class GetHighSpeed : MonoBehaviour
 {
+
+    public AudioSource audiosource;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Mole"))
         {
+            audiosource.Play();
             Debug.Log("GetHighSpeed triggered by Mole");
             HighSpeedEffect(other.gameObject);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 

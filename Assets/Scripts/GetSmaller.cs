@@ -2,13 +2,16 @@ using UnityEngine;
 
 public class GetSmaller : MonoBehaviour
 {
+
+    public AudioSource audiosource;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Mole"))
         {
+            audiosource.Play();
             Debug.Log("GetBigger triggered by Mole");
             GetSmallerEffect(other.gameObject);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 
