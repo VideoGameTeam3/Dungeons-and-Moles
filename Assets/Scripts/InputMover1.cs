@@ -7,10 +7,10 @@ public class InputMover : MonoBehaviour
     [Tooltip("Speed of movement, in meters per second")]
     [SerializeField] float speed = 10f;
 
-    [SerializeField] InputAction moveHorizontal = new InputAction(type: InputActionType.Button);
+    // [SerializeField] InputAction moveHorizontal = new InputAction(type: InputActionType.Button);
     [SerializeField] InputAction moveVertical = new InputAction(type: InputActionType.Button);
 
-    private bool canMove = false;
+    // private bool canMove = false;
 
     public void SetSpeed(float newSpeed)
     {
@@ -24,31 +24,31 @@ public class InputMover : MonoBehaviour
 
     void OnEnable()
     {
-        moveHorizontal.Enable();
+        // moveHorizontal.Enable();
         moveVertical.Enable();
-        StartCoroutine(EnableMovementAfterDelay(7f));
+        // StartCoroutine(EnableMovementAfterDelay(7f));
     }
 
     void OnDisable()
     {
-        moveHorizontal.Disable();
+        // moveHorizontal.Disable();
         moveVertical.Disable();
     }
 
     void Update()
     {
-        if (canMove)
-        {
-            float horizontal = moveHorizontal.ReadValue<float>();
+        // if (canMove)
+        // {
+            // float horizontal = moveHorizontal.ReadValue<float>();
             float vertical = moveVertical.ReadValue<float>();
-            Vector3 movementVector = new Vector3(horizontal, vertical, 0) * speed * Time.deltaTime;
+            Vector3 movementVector = new Vector3(0, vertical, 0) * speed * Time.deltaTime;
             transform.position += movementVector;
-        }
+        // }
     }
 
-    IEnumerator EnableMovementAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        canMove = true;
-    }
+    // IEnumerator EnableMovementAfterDelay(float delay)
+    // {
+    //     yield return new WaitForSeconds(delay);
+    //     canMove = true;
+    // }
 }

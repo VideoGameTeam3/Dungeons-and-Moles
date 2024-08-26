@@ -25,7 +25,7 @@ public class GoToTheStart : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == triggeringTag && enabled && !isReturning) {
-            StartCoroutine(StopAndReturn(other.GetComponent<Renderer>(), this.GetComponent<InputMover>()));
+            // StartCoroutine(StopAndReturn(other.GetComponent<Renderer>(), this.GetComponent<InputMover>()));
             audiosource.Play();
         }
     }
